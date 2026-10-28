@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.2.2-fa.1 - 2026-10-28
+
+FortAwesome fork of 1.2.1, published to the internal-tools Hex repo.
+
+### Maintenance
+
+- Allow `hackney ~> 4.0`. Phoenix.Swoosh never calls hackney; the optional
+  requirement only constrained dependency resolution, which kept apps from
+  moving to hackney 4 (and certifi 2.18).
+
 ## 1.2.1 - 2024-01-08
 
 ### Maintenance
