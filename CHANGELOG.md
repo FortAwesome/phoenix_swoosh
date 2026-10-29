@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.2.2-fa.2 - 2026-10-28
+
+### Maintenance
+
+- Restore 1.2.1's optional `phoenix ~> 1.6` requirement. The fork was cut from
+  `main`, which had raised it to `~> 1.8` after 1.2.1, so 1.2.2-fa.1 could not
+  be used by apps still on Phoenix 1.7.
+
 ## 1.2.2-fa.1 - 2026-10-28
 
 FortAwesome fork of 1.2.1, published to the internal-tools Hex repo.
